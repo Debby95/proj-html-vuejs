@@ -55,13 +55,13 @@ export default {
     }
 
     .banner-fs {
-        font-size: 120px;
+        font-size: 80px;
         margin-top: 180px;
         font-weight: 700;
     }
 
     .banner-text {
-        font-size: 25px;
+        font-size: 16px;
         margin-bottom: 35px;
     }
 
@@ -69,7 +69,7 @@ export default {
         color: white;
         border: 1px solid white;
         background-color: transparent;
-        padding: 15px 45px;
+        padding: 10px 20px;
         color: white;
     }
 
