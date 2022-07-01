@@ -1,42 +1,60 @@
 <template>
     <div class="section">
+        <!-- World class fitness section -->
         <div class="container">
-            <div>
+            <div class="text-center">
                 <div class="title-section">WORLD CLASS Fitness</div>
                 <img class="mt-4 mb-4" src="../assets/img/divider-xx-red.png" alt="">
                 <div class="text-secondary ">At Avada Gym, everything we do from top to bottom is of the highest quality to ensure we're equipped to help your reach your goals of a healthy and fit lifestyle.</div>
             </div>
         </div>
+        <!-- form section -->
         <div class="text-white d-flex justify-content-around form-section">
             <div class="row">
+                <!-- col with img form -->
                 <div class="col">
                     <img src="../assets/img/home_img-compressor-400x222.jpg" alt="">
                 </div>
                 <div class="col">
                     <h5>Sign Up For A Free Training Session!</h5>
                     <form>
+                        <!-- name input -->
                         <div class="form-group text-secondary">
                             <label for="exampleInputName">Name*</label>
                             <input type="name" class="form-control bg-dark">
                         </div>
+                        <!-- email input -->
                         <div class="form-group text-secondary">
                             <label for="exampleInputEmail">Email</label>
                             <input type="email" class="form-control bg-dark">
                         </div>
-                            
+                        
+                        <!-- button form -->
                         <button type="submit" class="btn-start-now">START NOW!</button>
                     </form>
                 </div>
             </div>
+        </div>
+        <!-- activity section -->
+        <div class="gym-bg">
+
         </div>
     </div>
     
 </template>
 
 <script>
+export default {
+    name: "TheMain",
+
+}
 </script>
 
 <style>
+    h5 {
+        margin-left: 20px;
+    }
+
     .section {
         background-color: #25292B;
         
@@ -52,13 +70,10 @@
         padding-top: 70px;
     }
 
-    .home {
-        height: 300px;
-    }
-
     .form-section {
         padding-top: 100px;
         background-color: #1E2123;
+        height: 420px;
     }
 
     .form-group {
@@ -71,5 +86,14 @@
         width: 400px;
         color: white;
         padding: 10px;
+        margin-left: 20px;
+    }
+
+    .gym-bg {
+        background-image: url(../assets/img/gym_bkgd_bw-compressor.jpg);
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 </style>

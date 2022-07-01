@@ -1,17 +1,20 @@
 <template>
     <div class="nav-section ">
-        <div class="container">
-            <div class="d-flex justify-content-between py-5 ">
+        <div class="container big-container">
+            <div class="d-flex justify-content-between py-4 ">
                 <img src="../assets/img/gym_logo_1x.png" alt="">
                 <ul class="nav pt-5 ">
                     <li class="nav-item" v-for="product in products" :key="product.navLink">
-                        <a class="nav-link disabled text-uppercase text-white" href="#">{{product.navLink}}</a>
+                        <a class="nav-link disabled text-uppercase" href="#">{{product.navLink}}</a>
                     </li>
                 </ul>
             </div>
-            <div class="text-white text-uppercase banner-fs">no pain no gain</div>
-            <div class="banner-text text-white">Motivation is what gets you started. Habit is what keeps you going.</div>
-            <button class="btn-join-us">JOIN US TODAY</button>
+            <div class="text-center">
+                <div class=" text-uppercase banner-fs ">no pain no gain</div>
+                <div class="banner-text">Motivation is what gets you started. Habit is what keeps you going.</div>
+                <button class="btn-join-us">JOIN US TODAY</button>
+            </div>
+            
         </div>
         
     </div>
@@ -54,14 +57,19 @@ export default {
         height: 800px;
     }
 
+    .big-container {
+        min-width: 1650px;
+        color: white;
+    }
+
     .banner-fs {
-        font-size: 80px;
-        margin-top: 70px;
+        font-size: 100px;
+        margin-top: 105px;
         font-weight: 700;
     }
 
     .banner-text {
-        font-size: 16px;
+        font-size: 20px;
         margin-bottom: 35px;
     }
 
