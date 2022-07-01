@@ -36,8 +36,58 @@
             </div>
         </div>
         <!-- activity section -->
-        <div class="gym-bg">
+        <div class="gym-bg d-flex justify-content-center pt-5 text-center">
+            <div class="row">
+                <div class="col">
+                    <div class="card bg-transparent">
+                        <div class="card-icon">
 
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">Strenght & Conditioning</div>
+                            <img src="../assets/img/divider-x-red.png" alt="">
+                            <div class="card-text">Lorem Ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-transparent">
+                        <div class="card-icon">
+
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">Fitness & Cardio</div>
+                            <img src="../assets/img/divider-x-red.png" alt="">
+                            <div class="card-text">Lorem Ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-transparent">
+                        <div class="card-icon">
+
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">Flexibility & Rest</div>
+                            <img src="../assets/img/divider-x-red.png" alt="">
+                            <div class="card-text">Lorem Ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-transparent">
+                        <div class="card-icon">
+
+                        </div>
+                        <div class="card-body ">
+                            <div class="card-title">Health & Diet</div>
+                            <img src="../assets/img/divider-x-red.png" alt="">
+                            <div class="card-text">Lorem Ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </div>
     
@@ -95,5 +145,17 @@ export default {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+    }
+
+    .card {
+        width: 300px;
+    }
+
+    .card-title {
+        color: white;
+    }
+
+    .card-text {
+        color: grey;
     }
 </style>
