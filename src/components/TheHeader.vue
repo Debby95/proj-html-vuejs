@@ -1,6 +1,6 @@
 <template>
     <div class="section ">
-        <div class="container big-container">
+        <div class="container">
             <div class="d-flex justify-content-between py-5 ">
                 <img src="../assets/img/gym_logo_1x.png" alt="">
                 <ul class="nav pt-5 ">
@@ -10,7 +10,7 @@
                 </ul>
             </div>
             <div class="text-white text-uppercase banner-fs">no pain no gain</div>
-            <div class="banner-text">Motivation is what gets you started. Habit is what keeps you going.</div>
+            <div class="banner-text text-white">Motivation is what gets you started. Habit is what keeps you going.</div>
             <button>JOIN US TODAY</button>
         </div>
         
@@ -52,11 +52,6 @@ export default {
         background-image: url(../assets/img/home-banner.jpg);
         background-repeat: round;
         height: 1100px;
-    }
-
-    .big-container {
-        min-width: 1890px;
-        color: white;
     }
 
     .banner-fs {
