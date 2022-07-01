@@ -41,7 +41,7 @@
                 <div class="col">
                     <div class="card bg-transparent">
                         <div class="card-icon">
-
+                            <i class="fa-solid fa-dumbbell icon"></i>
                         </div>
                         <div class="card-body">
                             <div class="card-title">Strenght & Conditioning</div>
@@ -65,7 +65,7 @@
                 <div class="col">
                     <div class="card bg-transparent">
                         <div class="card-icon">
-
+                            <i class="fa-solid fa-infinity icon"></i>
                         </div>
                         <div class="card-body">
                             <div class="card-title">Flexibility & Rest</div>

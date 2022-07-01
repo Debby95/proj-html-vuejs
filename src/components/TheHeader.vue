@@ -5,7 +5,7 @@
                 <img src="../assets/img/gym_logo_1x.png" alt="">
                 <ul class="nav pt-5 ">
                     <li class="nav-item" v-for="product in products" :key="product.navLink">
-                        <a class="nav-link disabled text-uppercase" href="#">{{product.navLink}}</a>
+                        <a class="nav-link text-uppercase link-secondary" href="#">{{product.navLink}}</a>
                     </li>
                 </ul>
             </div>
@@ -84,5 +84,5 @@ export default {
     .btn-join-us:hover {
         color: black;
         background-color: white;
-}
+    }
 </style>
