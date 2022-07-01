@@ -1,5 +1,5 @@
 <template>
-    <div class="section ">
+    <div class="nav-section ">
         <div class="container">
             <div class="d-flex justify-content-between py-5 ">
                 <img src="../assets/img/gym_logo_1x.png" alt="">
@@ -11,7 +11,7 @@
             </div>
             <div class="text-white text-uppercase banner-fs">no pain no gain</div>
             <div class="banner-text text-white">Motivation is what gets you started. Habit is what keeps you going.</div>
-            <button>JOIN US TODAY</button>
+            <button class="btn-join-us">JOIN US TODAY</button>
         </div>
         
     </div>
@@ -48,15 +48,15 @@ export default {
 </script>
 
 <style>
-    .section {
+    .nav-section {
         background-image: url(../assets/img/home-banner.jpg);
         background-repeat: round;
-        height: 1100px;
+        height: 800px;
     }
 
     .banner-fs {
         font-size: 80px;
-        margin-top: 180px;
+        margin-top: 70px;
         font-weight: 700;
     }
 
@@ -65,7 +65,7 @@ export default {
         margin-bottom: 35px;
     }
 
-    button {
+    .btn-join-us {
         color: white;
         border: 1px solid white;
         background-color: transparent;
@@ -73,7 +73,7 @@ export default {
         color: white;
     }
 
-    button:hover {
+    .btn-join-us:hover {
         color: black;
         background-color: white;
 }
