@@ -53,7 +53,7 @@
                 <div class="col">
                     <div class="card bg-transparent">
                         <div class="card-icon">
-
+                            <i class="fa-solid fa-bicycle icon"></i>
                         </div>
                         <div class="card-body">
                             <div class="card-title">Fitness & Cardio</div>
@@ -77,7 +77,7 @@
                 <div class="col">
                     <div class="card bg-transparent">
                         <div class="card-icon">
-
+                            <i class="fa-solid fa-heart-pulse icon"></i>
                         </div>
                         <div class="card-body ">
                             <div class="card-title">Health & Diet</div>
@@ -157,5 +157,12 @@ export default {
 
     .card-text {
         color: grey;
+    }
+
+    .icon {
+        border: 1px solid #EE6059;
+        border-radius: 60px;
+        color: #EE6059;
+        padding: 20px;
     }
 </style>
