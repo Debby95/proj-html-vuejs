@@ -79,6 +79,7 @@ export default {
         background-color: transparent;
         padding: 10px 20px;
         color: white;
+        
     }
 
     .btn-join-us:hover {

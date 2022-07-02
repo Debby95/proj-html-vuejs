@@ -39,7 +39,7 @@
         <div class="gym-bg d-flex justify-content-center pt-5 text-center">
             <div class="row">
                 <div class="col">
-                    <div class="card bg-transparent">
+                    <div class="card bg-transparent border-0">
                         <div class="card-icon">
                             <i class="fa-solid fa-dumbbell icon"></i>
                         </div>
@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card bg-transparent">
+                    <div class="card bg-transparent border-0">
                         <div class="card-icon">
                             <i class="fa-solid fa-bicycle icon"></i>
                         </div>
@@ -63,11 +63,11 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card bg-transparent">
+                    <div class="card bg-transparent border-0">
                         <div class="card-icon">
                             <i class="fa-solid fa-infinity icon"></i>
                         </div>
-                        <div class="card-body">
+                        <div class="card-body border-0">
                             <div class="card-title">Flexibility & Rest</div>
                             <img src="../assets/img/divider-x-red.png" alt="">
                             <div class="card-text">Lorem Ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.</div>
@@ -75,7 +75,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card bg-transparent">
+                    <div class="card bg-transparent border-0">
                         <div class="card-icon">
                             <i class="fa-solid fa-heart-pulse icon"></i>
                         </div>
@@ -141,7 +141,7 @@ export default {
 
     .gym-bg {
         background-image: url(../assets/img/gym_bkgd_bw-compressor.jpg);
-        height: 300px;
+        height: 400px;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;

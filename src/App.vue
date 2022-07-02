@@ -2,20 +2,31 @@
   <div id="app">
     <TheHeader></TheHeader>
     <TheMain></TheMain>
+    <ResultsAndPerformance :theCard="theCard"></ResultsAndPerformance>
+    <TheCard></TheCard>
   </div>
 </template>
 
 <script>
 import TheHeader from "./components/TheHeader.vue";
 import TheMain from "./components/TheMain.vue";
+import ResultsAndPerformance from "./components/ResultsAndPerformance.vue";
+import TheCard from "./components/TheCard.vue"
 
 
 export default {
   name: 'App',
   components: {
     TheHeader,
-    TheMain
-}
+    TheMain,
+    ResultsAndPerformance,
+    TheCard 
+  },
+  data() {
+    return {
+      theCard: [],
+    }
+  }
 }
 </script>
 
