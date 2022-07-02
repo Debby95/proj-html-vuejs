@@ -4,6 +4,7 @@
     <TheMain></TheMain>
     <ResultsAndPerformance :theCard="theCard"></ResultsAndPerformance>
     <TheCard></TheCard>
+    <BruceeLeeSection></BruceeLeeSection>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import TheHeader from "./components/TheHeader.vue";
 import TheMain from "./components/TheMain.vue";
 import ResultsAndPerformance from "./components/ResultsAndPerformance.vue";
 import TheCard from "./components/TheCard.vue"
+import BruceeLeeSection from "./components/BruceeLeeSection.vue";
 
 
 export default {
@@ -21,6 +23,7 @@ export default {
     TheMain,
     ResultsAndPerformance,
     TheCard,
+    BruceeLeeSection
 },
   data() {
     return {
