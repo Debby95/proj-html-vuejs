@@ -20,8 +20,8 @@ export default {
     TheHeader,
     TheMain,
     ResultsAndPerformance,
-    TheCard 
-  },
+    TheCard,
+},
   data() {
     return {
       theCard: [],
