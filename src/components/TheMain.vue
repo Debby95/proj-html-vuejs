@@ -5,7 +5,7 @@
             <div class="text-center">
                 <div class="title-section">WORLD CLASS Fitness</div>
                 <img class="mt-4 mb-4" src="../assets/img/divider-xx-red.png" alt="">
-                <div class="text-secondary ">At Avada Gym, everything we do from top to bottom is of the highest quality to ensure we're equipped to help your reach your goals of a healthy and fit lifestyle.</div>
+                <div class="text-secondary ">At Avada Gym, everything we do from top to bottom is of the highest quality to ensure we're equipped <br> to help your reach your goals of a healthy and fit lifestyle.</div>
             </div>
         </div>
         <!-- form section -->

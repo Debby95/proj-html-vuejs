@@ -45,7 +45,7 @@ export default {
     name: "ResultsAndPerformance",
     components: {
         TheCard,
-},
+    },
     data() {
         return {
             results: [
