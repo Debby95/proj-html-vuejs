@@ -1,23 +1,26 @@
 <template>
-    <div class="nav-section ">
-        <div class="container big-container">
-            <div class="d-flex justify-content-between py-4 ">
-                <img src="../assets/img/gym_logo_1x.png" alt="">
-                <ul class="nav pt-5 ">
-                    <li class="nav-item" v-for="product in products" :key="product.navLink">
-                        <a class="nav-link text-uppercase link-secondary" href="#">{{product.navLink}}</a>
-                    </li>
-                </ul>
+    <header>
+        <div class="nav-section ">
+            <div class="container big-container">
+                <div class="d-flex justify-content-between py-4 ">
+                    <img src="../assets/img/gym_logo_1x.png" alt="">
+                    <ul class="nav pt-5 ">
+                        <li class="nav-item" v-for="product in products" :key="product.navLink">
+                            <a class="nav-link text-uppercase link-secondary" href="#">{{product.navLink}}</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="text-center">
+                    <div class=" text-uppercase banner-fs ">no pain no gain</div>
+                    <div class="banner-text">Motivation is what gets you started. Habit is what keeps you going.</div>
+                    <button class="btn-transparent">JOIN US TODAY</button>
+                </div>
+                
             </div>
-            <div class="text-center">
-                <div class=" text-uppercase banner-fs ">no pain no gain</div>
-                <div class="banner-text">Motivation is what gets you started. Habit is what keeps you going.</div>
-                <button class="btn-transparent">JOIN US TODAY</button>
-            </div>
-            
-        </div>
         
-    </div>
+        </div>
+    </header>
+    
 </template>
 
 <script>
