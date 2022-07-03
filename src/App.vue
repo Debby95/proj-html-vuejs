@@ -6,6 +6,7 @@
     <TheCard></TheCard>
     <BruceeLeeSection></BruceeLeeSection>
     <TheTrainersSection></TheTrainersSection>
+    <ThePerformanceSection></ThePerformanceSection>
 
   </div>
 </template>
@@ -17,6 +18,7 @@ import ResultsAndPerformance from "./components/ResultsAndPerformance.vue";
 import TheCard from "./components/TheCard.vue"
 import BruceeLeeSection from "./components/BruceeLeeSection.vue";
 import TheTrainersSection from "./components/TheTrainersSection.vue";
+import ThePerformanceSection from "./components/ThePerformanceSection.vue";
 
 
 
@@ -28,7 +30,8 @@ export default {
     ResultsAndPerformance,
     TheCard,
     BruceeLeeSection,
-    TheTrainersSection
+    TheTrainersSection,
+    ThePerformanceSection
 },
   data() {
     return {
