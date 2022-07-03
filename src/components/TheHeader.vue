@@ -12,7 +12,7 @@
             <div class="text-center">
                 <div class=" text-uppercase banner-fs ">no pain no gain</div>
                 <div class="banner-text">Motivation is what gets you started. Habit is what keeps you going.</div>
-                <button class="btn-join-us">JOIN US TODAY</button>
+                <button class="btn-transparent">JOIN US TODAY</button>
             </div>
             
         </div>
@@ -73,7 +73,7 @@ export default {
         margin-bottom: 35px;
     }
 
-    .btn-join-us {
+    .btn-transparent {
         color: white;
         border: 1px solid white;
         background-color: transparent;
@@ -82,7 +82,7 @@ export default {
         
     }
 
-    .btn-join-us:hover {
+    .btn-transparent:hover {
         color: black;
         background-color: white;
     }

@@ -31,6 +31,10 @@
                     </div>
                 </div>
             </div>
+            <div class="text-center mt-5">
+                <button class="btn-transparent">VIEW ALL TRAINERS</button>
+            </div>
+            
         </div>
     </div>
 </template>
