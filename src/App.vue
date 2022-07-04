@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <TheHeader></TheHeader>
+    <TheHeader :theNavBar="theNavBar"></TheHeader>
     <TheNavBar></TheNavBar>
     <TheMain></TheMain>
     <ResultsAndPerformance :theCard="theCard"></ResultsAndPerformance>
@@ -9,13 +9,14 @@
     <TheTrainersSection></TheTrainersSection>
     <ThePerformanceSection></ThePerformanceSection>
     <JoinUs></JoinUs>
-    <TheFooter></TheFooter>
-
+    <TheFooter :theFooterLink="theFooterLink"></TheFooter>
+    <TheFooterLink></TheFooterLink>
   </div>
 </template>
 
 <script>
 import TheHeader from "./components/TheHeader.vue";
+import TheNavBar from "./components/TheNavBar.vue";
 import TheMain from "./components/TheMain.vue";
 import ResultsAndPerformance from "./components/ResultsAndPerformance.vue";
 import TheCard from "./components/TheCard.vue"
@@ -24,7 +25,8 @@ import TheTrainersSection from "./components/TheTrainersSection.vue";
 import ThePerformanceSection from "./components/ThePerformanceSection.vue";
 import JoinUs from "./components/JoinUs.vue";
 import TheFooter from "./components/TheFooter.vue";
-import TheNavBar from "./components/TheNavBar.vue";
+import TheFooterLink from "./components/TheFooterLink.vue";
+
 
 
 
@@ -32,6 +34,7 @@ export default {
   name: 'App',
   components: {
     TheHeader,
+    TheNavBar,
     TheMain,
     ResultsAndPerformance,
     TheCard,
@@ -40,7 +43,7 @@ export default {
     ThePerformanceSection,
     JoinUs,
     TheFooter,
-    TheNavBar
+    TheFooterLink
 },
   data() {
     return {

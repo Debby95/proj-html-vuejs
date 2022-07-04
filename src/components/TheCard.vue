@@ -8,9 +8,7 @@
 export default {
     props: {
         result: Object,
-
     },
-
 }
 </script>
 
