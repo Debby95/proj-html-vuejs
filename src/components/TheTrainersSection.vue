@@ -9,7 +9,7 @@
                 <div class="col" v-for="trainer in trainers" :key="trainer.id">
                     <div class="trainers-card text-white flex-row w-100 mb-3">
                         <!-- trainers img -->
-                        <div class="card-img">
+                        <div class="cardImg">
                             <img :src="trainer.trainerImg" alt="">
                         </div>
                         <div class="card-trainer-body px-5 py-5">
@@ -84,11 +84,10 @@ export default {
         margin-right: 20px;
     }
 
-    .card-img:hover {
+    .cardImg:hover {
         -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
         transform: scale(1.1);
     }
-
 
 </style>

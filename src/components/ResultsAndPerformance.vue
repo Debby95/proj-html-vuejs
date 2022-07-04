@@ -103,4 +103,6 @@ export default {
         margin-top: 10px;
         margin-bottom: 20px;
     }
+
+
 </style>
