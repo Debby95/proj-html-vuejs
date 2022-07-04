@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <div class="section">
+        <div class="section-footer">
             <div class="container pt-5 ">
                 <div class="row row-cols-4">
                     <div class="col">
@@ -29,6 +29,8 @@
                         <img src="../assets/img/gym_ad-compressor.jpg" alt="">
                     </div>
                 </div>
+
+                
             </div>
         </div>
     </footer>
@@ -54,7 +56,11 @@ export default {
 </script>
 
 <style>
-    ul {
-        list-style-type: none;
+    .section-footer {
+        background-color: #25292B;
+        max-height: 350px;
     }
+
+
+
 </style>

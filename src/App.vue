@@ -11,6 +11,7 @@
     <JoinUs></JoinUs>
     <TheFooter :theFooterLink="theFooterLink"></TheFooter>
     <TheFooterLink></TheFooterLink>
+    <TheCopyrightSection></TheCopyrightSection>
   </div>
 </template>
 
@@ -26,6 +27,7 @@ import ThePerformanceSection from "./components/ThePerformanceSection.vue";
 import JoinUs from "./components/JoinUs.vue";
 import TheFooter from "./components/TheFooter.vue";
 import TheFooterLink from "./components/TheFooterLink.vue";
+import TheCopyrightSection from "./components/TheCopyrightSection.vue";
 
 
 
@@ -43,7 +45,8 @@ export default {
     ThePerformanceSection,
     JoinUs,
     TheFooter,
-    TheFooterLink
+    TheFooterLink,
+    TheCopyrightSection
 },
   data() {
     return {
