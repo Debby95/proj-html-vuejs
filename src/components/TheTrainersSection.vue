@@ -84,10 +84,12 @@ export default {
         margin-right: 20px;
     }
 
-    .cardImg:hover {
+    .trainers-card:hover {
         -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
         transform: scale(1.1);
+        transition-duration: .5s ;
+
     }
 
 </style>

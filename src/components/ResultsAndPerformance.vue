@@ -26,7 +26,7 @@
             <div class="pt-5">
                 <div class="text-center ">
                     <div class="title-section ">HIGH PERFORMANCE FACILITIES</div>
-                    <img class="xxmargin" src="../assets/img/divider-xx-red.png" alt="">
+                    <img class="mb-5 xxmargin" src="../assets/img/divider-xx-red.png" alt="">
                 </div>
                 <div class="row row-cols-3">
                     <div class="col" v-for="result in gymPicture" :key="result.id">

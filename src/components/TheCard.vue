@@ -17,5 +17,6 @@ export default {
         -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
         transform: scale(1.1);
+        transition-duration: .5s ;
     }
 </style>
