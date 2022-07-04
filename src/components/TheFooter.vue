@@ -45,10 +45,6 @@ export default {
                 {
                     "question": "> Train with free weights or your body weight?",
                     "question2": "> Nutritional advice that will keep you training",
-                    "weeksDays": "",
-                    "weekendDays": "",
-                    "weekDaysH": "",
-                    "weekEndDaysH": "",
                 },
             ]
         };
