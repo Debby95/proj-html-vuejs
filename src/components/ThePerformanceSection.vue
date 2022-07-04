@@ -12,6 +12,10 @@
                         <!-- perf img -->
                         <div class="card-img">
                             <img :src="perfNews.perfImg" alt="">
+                            <div class="overlay left-overlay d-flex justify-content-center">
+                                <i class="fa-solid fa-link d-flex align-items-center mx-3 "></i>
+                                <i class="fa-solid fa-magnifying-glass d-flex align-items-center"></i>
+                            </div>
                         </div>
                         <div class="card-perf-body px-5 py-5">
                             <div class="card-perf-title fs-4 fw-bold mb-2">{{perfNews.perfTitle}}</div>
@@ -76,8 +80,32 @@ export default {
         width: 400px;
     }
 
-    /*.perf-card {
+    .overlay {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: rgba(213, 98, 95, 0.82);
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        transition: .5s ease;
+    }
+
+    .card-img {
         position: relative;
-        bottom: 30px
-    }*/
+        overflow: hidden;
+    }
+
+    .left-overlay {
+        right: 100%;
+        height: 100%;
+        left: auto;
+    }
+
+    .card-img:hover .left-overlay {
+        right : 16px;
+    }
+
 </style>

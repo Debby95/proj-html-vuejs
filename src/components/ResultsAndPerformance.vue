@@ -11,8 +11,8 @@
                     <div class="col" v-for="result in results" :key="result.id">
                         <TheCard :result="result"></TheCard>
                         <div class="card bg-dark flex-row w-100 mb-3">
-                            <div class="card-img">
-                                <img :src="result.avatar" alt="">
+                            <div class="avatar-img">
+                                <img class="" :src="result.avatar" alt="">
                             </div>
                             <div class="card-body">
                                 <div class="card-text-review">{{result.feedback}}</div>
@@ -103,6 +103,5 @@ export default {
         margin-top: 10px;
         margin-bottom: 20px;
     }
-
 
 </style>
