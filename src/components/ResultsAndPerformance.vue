@@ -3,7 +3,7 @@
         <div class="container  text-white">
             <div class="pb-5">
                 <div class="text-center">
-                    <div class="title-section ">WORLD CLASS RESULTS</div>
+                    <div class="title-section ">REAL WORLD RESULTS</div>
                     <img class="xxmargin" src="../assets/img/divider-xx-red.png" alt="">
                 </div>
 
@@ -15,7 +15,7 @@
                                 <img class="" :src="result.avatar" alt="">
                             </div>
                             <div class="card-body">
-                                <div class="card-text-review">{{result.feedback}}</div>
+                                <div class="card-text-review font-italic mb-3">"{{result.feedback}}"</div>
                                 <div class="card-user-name">{{result.user}}</div>
                             </div>
                         </div>
@@ -102,6 +102,11 @@ export default {
     .xxmargin {
         margin-top: 10px;
         margin-bottom: 20px;
+    }
+
+    .font-italic {
+        font-style: italic;
+        font-size: 18px;
     }
 
 </style>
