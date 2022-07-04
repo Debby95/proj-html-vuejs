@@ -6,9 +6,9 @@
                     <div class="col">
                         <div class="text-secondary pb-4">COME FIND US</div>
                         <div class="text-white">
-                            <div>12345 North Main Street</div>
-                            <div>New York, NY 555555</div>
-                            <div>Phone: 1.800.555.6789</div>
+                            <div class="mb-2">12345 North Main Street </div>
+                            <div class="mb-2">New York, NY 555555</div>
+                            <div class="mb-2">Phone: 1.800.555.6789</div>
                             <div>Email: info@your-domain.com</div>
                         </div>
                     </div>
@@ -19,9 +19,9 @@
                     <div class="col">
                         <div class="text-secondary pb-4">OPENING TIMES</div>
                         <div class="text-white">
-                            <div>Weekdays Monday-Friday</div>
-                            <div class="text-secondary">09:00 - 19:00</div>
-                            <div>Weekends Saturday-Sunday</div>
+                            <div class="mb-2">Weekdays Monday-Friday</div>
+                            <div class="text-secondary mb-2">09:00 - 19:00</div>
+                            <div class="mb-2">Weekends Saturday-Sunday</div>
                             <div class="text-secondary">09:00 - 21:00</div>
                         </div>
                     </div>
