@@ -13,7 +13,9 @@ export default {
 </script>
 
 <style>
-    .card {
-        padding: 20px;
+    .theCard:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
     }
 </style>
