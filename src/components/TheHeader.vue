@@ -6,7 +6,8 @@
                     <img src="../assets/img/gym_logo_1x.png" alt="">
                     <ul class="nav pt-5 ">
                         <li class="nav-item" v-for="product in products" :key="product.navLink">
-                            <a class="nav-link text-uppercase link-secondary" href="#">{{product.navLink}}</a>
+                            <TheNavBar :product="product"></TheNavBar>
+                            
                         </li>
                     </ul>
                 </div>
@@ -24,8 +25,12 @@
 </template>
 
 <script>
+import TheNavBar from './TheNavBar.vue';
 export default {
     name: "TheHeader",
+    components: {
+        TheNavBar,
+    },
     data() {
         return {
             products: [
@@ -82,7 +87,6 @@ export default {
         background-color: transparent;
         padding: 10px 20px;
         color: white;
-        
     }
 
     .btn-transparent:hover {

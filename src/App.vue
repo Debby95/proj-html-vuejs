@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <TheHeader></TheHeader>
+    <TheNavBar></TheNavBar>
     <TheMain></TheMain>
     <ResultsAndPerformance :theCard="theCard"></ResultsAndPerformance>
     <TheCard></TheCard>
@@ -8,6 +9,7 @@
     <TheTrainersSection></TheTrainersSection>
     <ThePerformanceSection></ThePerformanceSection>
     <JoinUs></JoinUs>
+    <TheFooter></TheFooter>
 
   </div>
 </template>
@@ -21,6 +23,8 @@ import BruceeLeeSection from "./components/BruceeLeeSection.vue";
 import TheTrainersSection from "./components/TheTrainersSection.vue";
 import ThePerformanceSection from "./components/ThePerformanceSection.vue";
 import JoinUs from "./components/JoinUs.vue";
+import TheFooter from "./components/TheFooter.vue";
+import TheNavBar from "./components/TheNavBar.vue";
 
 
 
@@ -34,7 +38,9 @@ export default {
     BruceeLeeSection,
     TheTrainersSection,
     ThePerformanceSection,
-    JoinUs
+    JoinUs,
+    TheFooter,
+    TheNavBar
 },
   data() {
     return {
