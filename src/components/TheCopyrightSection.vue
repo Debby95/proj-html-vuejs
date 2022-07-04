@@ -1,11 +1,11 @@
 <template>
     <div class="copyright-section  pt-5">
         <div class="container d-flex justify-content-between">
-            <div class="text-white copyright">
-                <span>&copy;Copyright 2012 - 2020 |</span>
-                <span>Avada Theme by Theme Fusion |</span>
-                <span>All RIghts Reserved |</span>
-                <span>Powered by WordPress</span>
+            <div class="text-white ">
+                <span>&copy; Copyright 2012 - 2020 &nbsp;  |</span>
+                <span>&nbsp; Avada Theme by Theme Fusion &nbsp;|</span>
+                <span>&nbsp; All RIghts Reserved &nbsp;|</span>
+                <span>&nbsp; Powered by WordPress</span>
             </div>
             <div class="socialNetwork">
                 <a href="">
