@@ -50,7 +50,9 @@ export default {
 },
   data() {
     return {
+      theNavBar: [],
       theCard: [],
+      theFooterLink: [],
     }
   }
 }
