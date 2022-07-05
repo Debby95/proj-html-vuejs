@@ -86,11 +86,6 @@ export default {
         border: 1px solid white;
         background-color: transparent;
         padding: 10px 20px;
-        color: white;
     }
 
-    .btn-transparent:hover {
-        color: black;
-        background-color: white;
-    }
 </style>

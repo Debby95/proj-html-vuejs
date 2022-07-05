@@ -149,6 +149,7 @@ export default {
 
     .card {
         width: 300px;
+        padding: 20px;
     }
 
     .card-title {

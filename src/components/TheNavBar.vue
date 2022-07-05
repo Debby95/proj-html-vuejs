@@ -1,5 +1,6 @@
 <template>
     <div class="theNavBar">
+        
         <a class="nav-link text-uppercase link-secondary" href="#">{{product.navLink}}</a>
     </div>
 </template>
@@ -13,4 +14,5 @@ export default {
 </script>
 
 <style>
+
 </style>
