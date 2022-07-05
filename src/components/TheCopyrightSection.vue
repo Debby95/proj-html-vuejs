@@ -1,6 +1,6 @@
 <template>
     <div class="copyright-section  pt-5">
-        <div class="container d-flex justify-content-between">
+        <div class="container d-flex justify-content-between mt-3">
             <div class="text-white ">
                 <span>&copy; Copyright 2012 - 2020 &nbsp;  |</span>
                 <span>&nbsp; Avada Theme by Theme Fusion &nbsp;|</span>

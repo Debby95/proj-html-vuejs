@@ -15,9 +15,7 @@ export default {
     name: "TheFooterLink",
     props: {
         info: Object,
-
     },
-
 }
 </script>
 
